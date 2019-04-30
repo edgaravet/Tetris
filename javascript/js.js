@@ -6,9 +6,9 @@ modale.addEventListener('click', function  (e) {
 
     if(e.target.classList.contains('easy')){
 
-        speed = 1000;
+        speed = 400;
     }else if (e.target.classList.contains('medium')){
-        speed = 500;
+        speed = 300;
     } else if (e.target.classList.contains('hard')){
         speed = 200;
     }
